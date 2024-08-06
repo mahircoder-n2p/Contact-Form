@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Contact Form</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <form id="contactForm" action="process.php" method="POST">
+            <label for="name">NAME:</label>
+            <input type="text" id="name" name="gamil" required>
+            
+            <label for="message">PASSWORD:</label>
+            <textarea id="message" name="password" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+        <div id="responseMessage"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
